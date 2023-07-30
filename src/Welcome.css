@@ -1,0 +1,56 @@
+
+  
+  .btn{
+    max-width:16rem;
+  }
+  
+  
+  
+  .hero-heading{
+    text-transform:uppercase;
+    font-size:3.4rem;
+  
+  }
+  
+
+  
+  .section-hero-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+  }
+  
+  picture{
+    text-align:center;
+  
+  
+  }
+  
+  .hero-img{
+   max-width:80%;
+  
+  }
+
+  .container{
+    max-width:120rem;
+    margin:0 auto;
+ }
+ 
+ .grid{
+    display:grid;
+    gap:9rem;
+ 
+ }
+ 
+ .grid-two-column{
+    grid-template-columns:repeat(2,1fr)
+ }
+ 
+ .grid-three-column{
+    grid-template-columns:repeat(3,1fr)  
+ }
+ 
+ .grid-four-column{
+    grid-template-columns:1fr 1.2fr .5fr .8fr;  
+ }
